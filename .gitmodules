@@ -1,0 +1,3 @@
+[submodule "NoteApp"]
+	path = NoteApp
+	url = git@github.com:egor19991/NoteApp.git
