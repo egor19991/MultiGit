@@ -1,0 +1,184 @@
+WASL0001I: The AdminApplication script library provides script
+        procedures that configure, administer, and deploy applications.
+
+        The Adminapplication script library provides the following script procedures.
+        To display detailed information about each script procedure, use the help command 
+        for the AdminApplication script library, specifying the name of the script of interest 
+        as an argument.
+
+
+Group 1: Install and uninstall applications
+
+installAppModulesToDiffServersWithPatternMatching:
+        Install application modules to different
+        application servers using Java pattern matching
+
+installAppModulesToDiffServersWithMapModulesToServersOption:
+        Install application modules to
+        different application servers with MapModulesToServers option for the AdminApp object.
+
+installAppModulesToMultiServersWithPatternMatching:
+        Install application modules to multiple
+        application servers using Java pattern matching.
+
+installAppModulesToSameServerWithPatternMatching:
+        Install application modules to the same
+        application server using Java pattern matching.
+
+installAppModulesToSameServerWithMapModulesToServersOption:
+        Install application modules to the same application server
+        using the MapModulesToServers option for the AdminApp object.
+
+installAppWithClusterOption:
+        Install application to a cluster using the cluster option for the AdminApp object.
+
+installAppWithDefaultBindingOption:
+        Install application using the default binding options.
+
+installAppWithDeployEjbOptions:
+        Install application using the deployejb option for the AdminApp object.
+
+installAppWithNodeAndServerOptions:
+        Install application using the node and server options for the AdminApp object.
+
+installAppWithTargetOption:
+        Install application using the target option for the AdminApp object.
+
+installAppWithVariousTasksAndNonTasksOptions:
+        Install application using different deployed tasks.
+
+installWarFile:
+        Install a Web archive (WAR) file.
+
+uninstallApplication:
+        Uninstall application.
+
+Group 2: Queries application configurations
+
+checkIfAppExists:
+        Display whether the application exists.
+
+getAppDeployedNodes:
+        Display the nodes on which the application is deployed.
+
+getAppDeploymentTarget:
+        Display the deployment target for the application.
+
+getTaskInfoForAnApp:
+        Display detailed task information for a specific install task.
+
+help:
+        Provides general help information for the AdminApplication script library.
+
+listApplications:
+        Display each deployed application in your configuration.
+
+listApplicationsWithTarget:
+        Display each deployed application for the deployment target.
+
+listModulesInAnApp:
+        Display each application module in the deployed application.
+
+Group 3: Update applications
+
+addPartialAppToAnAppWithUpdateCommand:
+        Update a partial application to a deployed application.
+
+addSingleFileToAnAppWithUpdateCommand:
+        Add a single file to a deployed application.
+
+addSingleModuleFileToAnAppWithUpdateCommand:
+        Add a single module file to a deployed application.
+
+addUpdateSingleModuleFileToAnAppWithUpdateCommand:
+        Add and updates a single module file to a deployed application.
+
+deletePartialAppToAnAppWithUpdateCommand:
+        Delete a partial application from a deployed application.
+
+deleteSingleFileToAnAppWithUpdateCommand:
+        Delete a single file in a deployed application.
+
+deleteSingleModuleFileToAnAppWithUpdateCommand:
+        Delete a single module file from a deployed application.
+
+updateApplicationUsingDefaultMerge:
+        Update application using default merging
+
+updateApplicationWithUpdateIgnoreNewOption:
+        Update application using the update.ignore.new option for the AdminApp object.
+
+updateApplicationWithUpdateIgnoreOldOption:
+        Update application using the update.ignore.old option for the AdminApp objects.
+
+updateEntireAppToAnAppWithUpdateCommand:
+        Update an entire application to a deployed application.
+
+updatePartialAppToAnAppWithUpdateCommand:
+        Update a partial application to a deployed application.
+
+updateSingleFileToAnAppWithUpdateCommand:
+        Update a single file to a deployed application.
+
+updateSingleModuleFileToAnAppWithUpdateCommand:
+        Update a single module file to a deployed application.
+
+Group 4: Export applications
+
+exportAllApplicationsToDir:
+        Export  each application in your configuration to a specific directory.
+
+exportAnAppDDLToDir:
+        Export  application data definition language (DDL) to a specific directory.
+
+exportAnAppToFile:
+        Export  application to a specific file.
+
+Group 5: Configure application deployment
+
+configureApplicationLoading:
+        Configure the application loading for the deployed targets.
+
+configureClassLoaderLoadingModeForAnApplication:
+        Configure class loader loading mode for application deployment.
+
+configureClassLoaderPolicyForAnApplication:
+        Configure a class loader policy for application deployment.
+
+configureConnectorModulesOfAnApplication:
+        Configure connector module attributes for application deployment.
+
+configureEJBModulesOfAnApplication:
+        Configure enterprise bean (EJB) module settings for application deployment.
+
+configureLibraryReferenceForAnApplication:
+        Configure shared library reference for the application.
+
+configureSessionManagementForAnApplication:
+        Configure session management settings for application deployment.
+
+configureStartingWeightForAnApplication:
+        Configure starting weight settings for application deployment.
+
+configureWebModulesOfAnApplication:
+        Configure Web modules settings for application deployment.
+
+Group 6: Administer applications
+
+startApplicationOnAllDeployedTargets:
+        Start an application on each deployed target.
+
+startApplicationOnCluster:
+        Start an application on a cluster.
+
+startApplicationOnSingleServer:
+        Start an application on a single server.
+
+stopApplicationOnAllDeployedTargets:
+        Stop an application on each deployed target.
+
+stopApplicationOnCluster:
+        Stop an application on a cluster.
+
+stopApplicationOnSingleServer:
+        Stop an application on single server
